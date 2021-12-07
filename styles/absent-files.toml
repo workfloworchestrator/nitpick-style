@@ -1,0 +1,6 @@
+[nitpick.files.absent]
+"requirements.txt" = "Move to requirements folder and split according to purpose"
+".isort.cfg" = "Move values to setup.cfg, section [isort]"
+"Pipfile" = "Use pyproject.toml instead"
+"Pipfile.lock" = "Use pyproject.toml instead"
+"mypy.ini" = "Move values to setup.cfg, section [mypy]"

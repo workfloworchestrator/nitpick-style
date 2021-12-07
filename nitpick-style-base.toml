@@ -1,0 +1,24 @@
+# Default style file for nitpick
+# https://raw.githubusercontent.com/andreoliwa/nitpick/v0.22.2/nitpick-style.toml
+
+[nitpick]
+minimum_version = "0.23.1"
+
+[nitpick.styles]
+include = [
+    "styles/python39",
+    "styles/absent-files",
+    "styles/pre-commit/main",
+    "styles/pre-commit/general",
+    "styles/pre-commit/python",
+    "styles/pre-commit/bash",
+    "styles/black",
+    "styles/flake8",
+    "styles/isort",
+    "styles/mypy",
+    "styles/pytest",
+    "styles/requirements",
+]
+
+[nitpick.files."setup.cfg"]
+comma_separated_values = ["flake8.ignore", "flake8.exclude"]

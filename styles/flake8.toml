@@ -1,0 +1,33 @@
+["setup.cfg".flake8]
+# http://www.pydocstyle.org/en/2.1.1/error_codes.html
+# Ignoring W503: Its wrong and disabled by default
+# Ignoring E203 https://github.com/psf/black/blob/master/docs/the_black_code_style.md#slices
+ignore = "E203, W503"
+exclude = "venv,.venv,src"
+enable-extensions = "G"
+select = "B,C,D,E,F,G,I,N,S,T,W,B902,B903,R"
+max-line-length = 120
+ban-relative-imports = true
+
+# Nitpick recommends those plugins as part of the style, but doesn't install them automatically as before.
+# This way, the developer has the choice of overriding this style, instead of having lots of plugins installed
+# without being asked.
+[["pre-commit-config.yaml".repos]]
+yaml = """
+  - repo: https://gitlab.com/pycqa/flake8
+    rev: 3.9.2
+    hooks:
+      - id: flake8
+        additional_dependencies:
+          - flake8-bandit
+          - flake8-bugbear
+          - flake8-comprehensions
+          - flake8-docstrings
+          - flake8-logging-format
+          - flake8-pep3101
+          - flake8-print
+          - flake8-rst
+          - flake8-rst-docstrings
+          - flake8-tidy-imports
+"""
+# TODO suggest nitpick for external repos

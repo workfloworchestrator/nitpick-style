@@ -1,0 +1,46 @@
+[["LICENSE".contains]]
+line = "BSD 3-Clause License"
+[["LICENSE".contains]]
+line = "Copyright (c) 2020, SURF U.A"
+[["LICENSE".contains]]
+line = "All rights reserved."
+[["LICENSE".contains]]
+line = "Redistribution and use in source and binary forms, with or without"
+[["LICENSE".contains]]
+line = "modification, are permitted provided that the following conditions are met:"
+[["LICENSE".contains]]
+line = "* Redistributions of source code must retain the above copyright notice, this"
+[["LICENSE".contains]]
+line = "  list of conditions and the following disclaimer."
+[["LICENSE".contains]]
+line = "* Redistributions in binary form must reproduce the above copyright notice,"
+[["LICENSE".contains]]
+line = "  this list of conditions and the following disclaimer in the documentation"
+[["LICENSE".contains]]
+line = "  and/or other materials provided with the distribution."
+[["LICENSE".contains]]
+line = "* Neither the name of the copyright holder nor the names of its"
+[["LICENSE".contains]]
+line = "  contributors may be used to endorse or promote products derived from"
+[["LICENSE".contains]]
+line = "  this software without specific prior written permission."
+[["LICENSE".contains]]
+line = "THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\""
+[["LICENSE".contains]]
+line = "AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE"
+[["LICENSE".contains]]
+line = "IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE"
+[["LICENSE".contains]]
+line = "DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE"
+[["LICENSE".contains]]
+line = "FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL"
+[["LICENSE".contains]]
+line = "DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR"
+[["LICENSE".contains]]
+line = "SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER"
+[["LICENSE".contains]]
+line = "CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,"
+[["LICENSE".contains]]
+line = "OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE"
+[["LICENSE".contains]]
+line = "OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."

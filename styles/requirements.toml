@@ -1,0 +1,56 @@
+[["requirements/base.txt".contains]]
+line = "more-itertools~=8.7.0"
+[["requirements/base.txt".contains]]
+line = "structlog~=20.2.0"
+
+[["requirements/test.txt".contains]]
+line = "-r base.txt"
+[["requirements/test.txt".contains]]
+line = "black"
+[["requirements/test.txt".contains]]
+line = "flake8"
+[["requirements/test.txt".contains]]
+line = "flake8-bandit"
+[["requirements/test.txt".contains]]
+line = "flake8-bugbear"
+[["requirements/test.txt".contains]]
+line = "flake8-comprehensions"
+[["requirements/test.txt".contains]]
+line = "flake8-docstrings"
+[["requirements/test.txt".contains]]
+line = "flake8-junit-report"
+[["requirements/test.txt".contains]]
+line = "flake8-logging-format"
+[["requirements/test.txt".contains]]
+line = "flake8-pep3101"
+[["requirements/test.txt".contains]]
+line = "flake8-print"
+[["requirements/test.txt".contains]]
+line = "flake8-rst"
+[["requirements/test.txt".contains]]
+line = "flake8-rst-docstrings"
+[["requirements/test.txt".contains]]
+line = "flake8-tidy-imports"
+[["requirements/test.txt".contains]]
+line = "isort"
+# [["requirements/test.txt".contains]]
+# line = "mypy"
+[["requirements/test.txt".contains]]
+line = "pytest"
+[["requirements/test.txt".contains]]
+line = "pytest-cov"
+[["requirements/test.txt".contains]]
+line = "pytest-xdist"
+
+[["requirements/dev.txt".contains]]
+line = "pre-commit"
+[["requirements/dev.txt".contains]]
+line = "-r test.txt"
+
+[["requirements/all.txt".contains]]
+line = "-r base.txt"
+[["requirements/all.txt".contains]]
+line = "-r test.txt"
+[["requirements/all.txt".contains]]
+line = "-r dev.txt"
+

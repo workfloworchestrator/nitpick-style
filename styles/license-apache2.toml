@@ -1,0 +1,341 @@
+[["LICENSE".contains]]
+line = "                                 Apache License"
+[["LICENSE".contains]]
+line = "                           Version 2.0, January 2004"
+[["LICENSE".contains]]
+line = "                        http://www.apache.org/licenses/"
+[["LICENSE".contains]]
+line = "   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION"
+[["LICENSE".contains]]
+line = "   1. Definitions."
+[["LICENSE".contains]]
+line = "      \"License\" shall mean the terms and conditions for use, reproduction,"
+[["LICENSE".contains]]
+line = "      and distribution as defined by Sections 1 through 9 of this document."
+[["LICENSE".contains]]
+line = "      \"Licensor\" shall mean the copyright owner or entity authorized by"
+[["LICENSE".contains]]
+line = "      the copyright owner that is granting the License."
+[["LICENSE".contains]]
+line = "      \"Legal Entity\" shall mean the union of the acting entity and all"
+[["LICENSE".contains]]
+line = "      other entities that control, are controlled by, or are under common"
+[["LICENSE".contains]]
+line = "      control with that entity. For the purposes of this definition,"
+[["LICENSE".contains]]
+line = "      \"control\" means (i) the power, direct or indirect, to cause the"
+[["LICENSE".contains]]
+line = "      direction or management of such entity, whether by contract or"
+[["LICENSE".contains]]
+line = "      otherwise, or (ii) ownership of fifty percent (50%) or more of the"
+[["LICENSE".contains]]
+line = "      outstanding shares, or (iii) beneficial ownership of such entity."
+[["LICENSE".contains]]
+line = "      \"You\" (or \"Your\") shall mean an individual or Legal Entity"
+[["LICENSE".contains]]
+line = "      exercising permissions granted by this License."
+[["LICENSE".contains]]
+line = "      \"Source\" form shall mean the preferred form for making modifications,"
+[["LICENSE".contains]]
+line = "      including but not limited to software source code, documentation"
+[["LICENSE".contains]]
+line = "      source, and configuration files."
+[["LICENSE".contains]]
+line = "      \"Object\" form shall mean any form resulting from mechanical"
+[["LICENSE".contains]]
+line = "      transformation or translation of a Source form, including but"
+[["LICENSE".contains]]
+line = "      not limited to compiled object code, generated documentation,"
+[["LICENSE".contains]]
+line = "      and conversions to other media types."
+[["LICENSE".contains]]
+line = "      \"Work\" shall mean the work of authorship, whether in Source or"
+[["LICENSE".contains]]
+line = "      Object form, made available under the License, as indicated by a"
+[["LICENSE".contains]]
+line = "      copyright notice that is included in or attached to the work"
+[["LICENSE".contains]]
+line = "      (an example is provided in the Appendix below)."
+[["LICENSE".contains]]
+line = "      \"Derivative Works\" shall mean any work, whether in Source or Object"
+[["LICENSE".contains]]
+line = "      form, that is based on (or derived from) the Work and for which the"
+[["LICENSE".contains]]
+line = "      editorial revisions, annotations, elaborations, or other modifications"
+[["LICENSE".contains]]
+line = "      represent, as a whole, an original work of authorship. For the purposes"
+[["LICENSE".contains]]
+line = "      of this License, Derivative Works shall not include works that remain"
+[["LICENSE".contains]]
+line = "      separable from, or merely link (or bind by name) to the interfaces of,"
+[["LICENSE".contains]]
+line = "      the Work and Derivative Works thereof."
+[["LICENSE".contains]]
+line = "      \"Contribution\" shall mean any work of authorship, including"
+[["LICENSE".contains]]
+line = "      the original version of the Work and any modifications or additions"
+[["LICENSE".contains]]
+line = "      to that Work or Derivative Works thereof, that is intentionally"
+[["LICENSE".contains]]
+line = "      submitted to Licensor for inclusion in the Work by the copyright owner"
+[["LICENSE".contains]]
+line = "      or by an individual or Legal Entity authorized to submit on behalf of"
+[["LICENSE".contains]]
+line = "      the copyright owner. For the purposes of this definition, \"submitted\""
+[["LICENSE".contains]]
+line = "      means any form of electronic, verbal, or written communication sent"
+[["LICENSE".contains]]
+line = "      to the Licensor or its representatives, including but not limited to"
+[["LICENSE".contains]]
+line = "      communication on electronic mailing lists, source code control systems,"
+[["LICENSE".contains]]
+line = "      and issue tracking systems that are managed by, or on behalf of, the"
+[["LICENSE".contains]]
+line = "      Licensor for the purpose of discussing and improving the Work, but"
+[["LICENSE".contains]]
+line = "      excluding communication that is conspicuously marked or otherwise"
+[["LICENSE".contains]]
+line = "      designated in writing by the copyright owner as \"Not a Contribution.\""
+[["LICENSE".contains]]
+line = "      \"Contributor\" shall mean Licensor and any individual or Legal Entity"
+[["LICENSE".contains]]
+line = "      on behalf of whom a Contribution has been received by Licensor and"
+[["LICENSE".contains]]
+line = "      subsequently incorporated within the Work."
+[["LICENSE".contains]]
+line = "   2. Grant of Copyright License. Subject to the terms and conditions of"
+[["LICENSE".contains]]
+line = "      this License, each Contributor hereby grants to You a perpetual,"
+[["LICENSE".contains]]
+line = "      worldwide, non-exclusive, no-charge, royalty-free, irrevocable"
+[["LICENSE".contains]]
+line = "      copyright license to reproduce, prepare Derivative Works of,"
+[["LICENSE".contains]]
+line = "      publicly display, publicly perform, sublicense, and distribute the"
+[["LICENSE".contains]]
+line = "      Work and such Derivative Works in Source or Object form."
+[["LICENSE".contains]]
+line = "   3. Grant of Patent License. Subject to the terms and conditions of"
+[["LICENSE".contains]]
+line = "      this License, each Contributor hereby grants to You a perpetual,"
+[["LICENSE".contains]]
+line = "      worldwide, non-exclusive, no-charge, royalty-free, irrevocable"
+[["LICENSE".contains]]
+line = "      (except as stated in this section) patent license to make, have made,"
+[["LICENSE".contains]]
+line = "      use, offer to sell, sell, import, and otherwise transfer the Work,"
+[["LICENSE".contains]]
+line = "      where such license applies only to those patent claims licensable"
+[["LICENSE".contains]]
+line = "      by such Contributor that are necessarily infringed by their"
+[["LICENSE".contains]]
+line = "      Contribution(s) alone or by combination of their Contribution(s)"
+[["LICENSE".contains]]
+line = "      with the Work to which such Contribution(s) was submitted. If You"
+[["LICENSE".contains]]
+line = "      institute patent litigation against any entity (including a"
+[["LICENSE".contains]]
+line = "      cross-claim or counterclaim in a lawsuit) alleging that the Work"
+[["LICENSE".contains]]
+line = "      or a Contribution incorporated within the Work constitutes direct"
+[["LICENSE".contains]]
+line = "      or contributory patent infringement, then any patent licenses"
+[["LICENSE".contains]]
+line = "      granted to You under this License for that Work shall terminate"
+[["LICENSE".contains]]
+line = "      as of the date such litigation is filed."
+[["LICENSE".contains]]
+line = "   4. Redistribution. You may reproduce and distribute copies of the"
+[["LICENSE".contains]]
+line = "      Work or Derivative Works thereof in any medium, with or without"
+[["LICENSE".contains]]
+line = "      modifications, and in Source or Object form, provided that You"
+[["LICENSE".contains]]
+line = "      meet the following conditions:"
+[["LICENSE".contains]]
+line = "      (a) You must give any other recipients of the Work or"
+[["LICENSE".contains]]
+line = "          Derivative Works a copy of this License; and"
+[["LICENSE".contains]]
+line = "      (b) You must cause any modified files to carry prominent notices"
+[["LICENSE".contains]]
+line = "          stating that You changed the files; and"
+[["LICENSE".contains]]
+line = "      (c) You must retain, in the Source form of any Derivative Works"
+[["LICENSE".contains]]
+line = "          that You distribute, all copyright, patent, trademark, and"
+[["LICENSE".contains]]
+line = "          attribution notices from the Source form of the Work,"
+[["LICENSE".contains]]
+line = "          excluding those notices that do not pertain to any part of"
+[["LICENSE".contains]]
+line = "          the Derivative Works; and"
+[["LICENSE".contains]]
+line = "      (d) If the Work includes a \"NOTICE\" text file as part of its"
+[["LICENSE".contains]]
+line = "          distribution, then any Derivative Works that You distribute must"
+[["LICENSE".contains]]
+line = "          include a readable copy of the attribution notices contained"
+[["LICENSE".contains]]
+line = "          within such NOTICE file, excluding those notices that do not"
+[["LICENSE".contains]]
+line = "          pertain to any part of the Derivative Works, in at least one"
+[["LICENSE".contains]]
+line = "          of the following places: within a NOTICE text file distributed"
+[["LICENSE".contains]]
+line = "          as part of the Derivative Works; within the Source form or"
+[["LICENSE".contains]]
+line = "          documentation, if provided along with the Derivative Works; or,"
+[["LICENSE".contains]]
+line = "          within a display generated by the Derivative Works, if and"
+[["LICENSE".contains]]
+line = "          wherever such third-party notices normally appear. The contents"
+[["LICENSE".contains]]
+line = "          of the NOTICE file are for informational purposes only and"
+[["LICENSE".contains]]
+line = "          do not modify the License. You may add Your own attribution"
+[["LICENSE".contains]]
+line = "          notices within Derivative Works that You distribute, alongside"
+[["LICENSE".contains]]
+line = "          or as an addendum to the NOTICE text from the Work, provided"
+[["LICENSE".contains]]
+line = "          that such additional attribution notices cannot be construed"
+[["LICENSE".contains]]
+line = "          as modifying the License."
+[["LICENSE".contains]]
+line = "      You may add Your own copyright statement to Your modifications and"
+[["LICENSE".contains]]
+line = "      may provide additional or different license terms and conditions"
+[["LICENSE".contains]]
+line = "      for use, reproduction, or distribution of Your modifications, or"
+[["LICENSE".contains]]
+line = "      for any such Derivative Works as a whole, provided Your use,"
+[["LICENSE".contains]]
+line = "      reproduction, and distribution of the Work otherwise complies with"
+[["LICENSE".contains]]
+line = "      the conditions stated in this License."
+[["LICENSE".contains]]
+line = "   5. Submission of Contributions. Unless You explicitly state otherwise,"
+[["LICENSE".contains]]
+line = "      any Contribution intentionally submitted for inclusion in the Work"
+[["LICENSE".contains]]
+line = "      by You to the Licensor shall be under the terms and conditions of"
+[["LICENSE".contains]]
+line = "      this License, without any additional terms or conditions."
+[["LICENSE".contains]]
+line = "      Notwithstanding the above, nothing herein shall supersede or modify"
+[["LICENSE".contains]]
+line = "      the terms of any separate license agreement you may have executed"
+[["LICENSE".contains]]
+line = "      with Licensor regarding such Contributions."
+[["LICENSE".contains]]
+line = "   6. Trademarks. This License does not grant permission to use the trade"
+[["LICENSE".contains]]
+line = "      names, trademarks, service marks, or product names of the Licensor,"
+[["LICENSE".contains]]
+line = "      except as required for reasonable and customary use in describing the"
+[["LICENSE".contains]]
+line = "      origin of the Work and reproducing the content of the NOTICE file."
+[["LICENSE".contains]]
+line = "   7. Disclaimer of Warranty. Unless required by applicable law or"
+[["LICENSE".contains]]
+line = "      agreed to in writing, Licensor provides the Work (and each"
+[["LICENSE".contains]]
+line = "      Contributor provides its Contributions) on an \"AS IS\" BASIS,"
+[["LICENSE".contains]]
+line = "      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or"
+[["LICENSE".contains]]
+line = "      implied, including, without limitation, any warranties or conditions"
+[["LICENSE".contains]]
+line = "      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A"
+[["LICENSE".contains]]
+line = "      PARTICULAR PURPOSE. You are solely responsible for determining the"
+[["LICENSE".contains]]
+line = "      appropriateness of using or redistributing the Work and assume any"
+[["LICENSE".contains]]
+line = "      risks associated with Your exercise of permissions under this License."
+[["LICENSE".contains]]
+line = "   8. Limitation of Liability. In no event and under no legal theory,"
+[["LICENSE".contains]]
+line = "      whether in tort (including negligence), contract, or otherwise,"
+[["LICENSE".contains]]
+line = "      unless required by applicable law (such as deliberate and grossly"
+[["LICENSE".contains]]
+line = "      negligent acts) or agreed to in writing, shall any Contributor be"
+[["LICENSE".contains]]
+line = "      liable to You for damages, including any direct, indirect, special,"
+[["LICENSE".contains]]
+line = "      incidental, or consequential damages of any character arising as a"
+[["LICENSE".contains]]
+line = "      result of this License or out of the use or inability to use the"
+[["LICENSE".contains]]
+line = "      Work (including but not limited to damages for loss of goodwill,"
+[["LICENSE".contains]]
+line = "      work stoppage, computer failure or malfunction, or any and all"
+[["LICENSE".contains]]
+line = "      other commercial damages or losses), even if such Contributor"
+[["LICENSE".contains]]
+line = "      has been advised of the possibility of such damages."
+[["LICENSE".contains]]
+line = "   9. Accepting Warranty or Additional Liability. While redistributing"
+[["LICENSE".contains]]
+line = "      the Work or Derivative Works thereof, You may choose to offer,"
+[["LICENSE".contains]]
+line = "      and charge a fee for, acceptance of support, warranty, indemnity,"
+[["LICENSE".contains]]
+line = "      or other liability obligations and/or rights consistent with this"
+[["LICENSE".contains]]
+line = "      License. However, in accepting such obligations, You may act only"
+[["LICENSE".contains]]
+line = "      on Your own behalf and on Your sole responsibility, not on behalf"
+[["LICENSE".contains]]
+line = "      of any other Contributor, and only if You agree to indemnify,"
+[["LICENSE".contains]]
+line = "      defend, and hold each Contributor harmless for any liability"
+[["LICENSE".contains]]
+line = "      incurred by, or claims asserted against, such Contributor by reason"
+[["LICENSE".contains]]
+line = "      of your accepting any such warranty or additional liability."
+[["LICENSE".contains]]
+line = "   END OF TERMS AND CONDITIONS"
+[["LICENSE".contains]]
+line = "   APPENDIX: How to apply the Apache License to your work."
+[["LICENSE".contains]]
+line = "      To apply the Apache License to your work, attach the following"
+[["LICENSE".contains]]
+line = "      boilerplate notice, with the fields enclosed by brackets \"[]\""
+[["LICENSE".contains]]
+line = "      replaced with your own identifying information. (Don't include"
+[["LICENSE".contains]]
+line = "      the brackets!)  The text should be enclosed in the appropriate"
+[["LICENSE".contains]]
+line = "      comment syntax for the file format. We also recommend that a"
+[["LICENSE".contains]]
+line = "      file or class name and description of purpose be included on the"
+[["LICENSE".contains]]
+line = "      same \"printed page\" as the copyright notice for easier"
+[["LICENSE".contains]]
+line = "      identification within third-party archives."
+[["LICENSE".contains]]
+line = "   Copyright [yyyy] [name of copyright owner]"
+[["LICENSE".contains]]
+line = "   Licensed under the Apache License, Version 2.0 (the \"License\");"
+[["LICENSE".contains]]
+line = "   you may not use this file except in compliance with the License."
+[["LICENSE".contains]]
+line = "   You may obtain a copy of the License at"
+[["LICENSE".contains]]
+line = "       http://www.apache.org/licenses/LICENSE-2.0"
+[["LICENSE".contains]]
+line = "   Unless required by applicable law or agreed to in writing, software"
+[["LICENSE".contains]]
+line = "   distributed under the License is distributed on an \"AS IS\" BASIS,"
+[["LICENSE".contains]]
+line = "   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied."
+[["LICENSE".contains]]
+line = "   See the License for the specific language governing permissions and"
+[["LICENSE".contains]]
+line = "   limitations under the License."
+
+[["requirements/test.txt".contains]]
+line = "apache-license-check"

@@ -1,0 +1,109 @@
+[[".dockerignore".contains]]
+block = """.travis.yaml
+README.md
+tox.ini
+git_push.sh
+setup.py
+.pre-commit-config.yaml
+.gitlab-ci.yaml
+pyproject.toml
+setup.cfg
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+tests/
+test/
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+venv/
+.python-version
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+#Ipython Notebook
+.ipynb_checkpoints
+
+"""
+
+
+[["Dockerfile".contains]]
+line = "FROM python:3.8-slim"
+[["Dockerfile".contains]]
+line = "ARG SSH_PRIVATE_KEY"
+[["Dockerfile".contains]]
+line = "LABEL maintainer=\"SURFnet Automation <automation-nw@surfnet.nl>\""
+[["Dockerfile".contains]]
+line = "WORKDIR /root/"
+[["Dockerfile".contains]]
+line = "RUN echo \"$SSH_PRIVATE_KEY\" | base64 -d > id_rsa"
+[["Dockerfile".contains]]
+line = "RUN chmod 600 id_rsa"
+[["Dockerfile".contains]]
+line = "WORKDIR /usr/src/app"
+[["Dockerfile".contains]]
+line = "RUN apt update && apt install -y git"
+[["Dockerfile".contains]]
+line = "ADD requirements /usr/src/app/requirements"
+[["Dockerfile".contains]]
+line = "RUN GIT_SSH_COMMAND='ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -i /root/id_rsa' pip3 install --no-cache-dir --upgrade -r requirements/base.txt"
+[["Dockerfile".contains]]
+line = "RUN rm -f /root/id_rsa"
+[["Dockerfile".contains]]
+line = "COPY . /usr/src/app"
+[["Dockerfile".contains]]
+line = "EXPOSE 8080"
+[["Dockerfile".contains]]
+line = "CMD [\"/usr/src/app/bin/server\"]"
