@@ -15,10 +15,10 @@ warn_unused_ignores = true
 # [["pre-commit-config.yaml".repos]]
 # yaml = """
 #   - repo: https://github.com/pre-commit/mirrors-mypy
-#     rev: v0.790
+#     rev: v0.910
 #     hooks:
 #       - id: mypy
-#         language_version: python38
+#         language_version: python3.9
 #         args:
 #           - --no-warn-unused-ignores
 #           - --allow-untyped-decorators
