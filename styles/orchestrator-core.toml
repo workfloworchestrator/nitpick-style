@@ -1,2 +1,0 @@
-[["requirements/base.txt".contains]]
-line = "git+https://github.com/workfloworchestrator/orchestrator-core.git@"
