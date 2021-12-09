@@ -10,4 +10,7 @@ yaml = """
     rev: v2.29.0
     hooks:
       - id: pyupgrade
+        args:
+          - --py39-plus
+          - --keep-runtime-typing
 """
