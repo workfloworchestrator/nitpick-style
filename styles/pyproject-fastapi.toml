@@ -1,0 +1,5 @@
+[["pyproject.toml".contains]]
+line = "fastapi~=0.68.1"
+
+[["pyproject.toml".contains]]
+line = "uvicorn[standard]~=0.13.4"

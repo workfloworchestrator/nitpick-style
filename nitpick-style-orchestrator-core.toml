@@ -6,8 +6,18 @@ minimum_version = "0.23.1"
 
 [nitpick.styles]
 include = [
-    "nitpick-style",
+    "styles/python39",
+    "styles/absent-files",
+    "styles/pre-commit/main",
+    "styles/pre-commit/general",
+    "styles/pre-commit/python",
+    "styles/pre-commit/bash",
+    "styles/black",
+    "styles/flake8",
+    "styles/isort",
+    "styles/mypy",
+    "styles/pytest",
+    "styles/license-apache2",
     "styles/orchestrator-core",
     "styles/mypy-pydantic",
 ]
-
