@@ -1,43 +1,43 @@
 [["pyproject.toml".contains]]
-line = "    /"more-itertools~=8.7.0/","
+line = '    "more-itertools~=8.7.0","
 [["pyproject.toml".contains]]
-line = "    /"structlog~=20.2.0/","
+line = '    "structlog~=20.2.0","
 
 [["pyproject.toml".contains]]
-line = "    /"black/","
+line = '    "black","
 [["pyproject.toml".contains]]
-line = "    /"flake8/","
+line = '    "flake8","
 [["pyproject.toml".contains]]
-line = "    /"flake8-bandit/","
+line = '    "flake8-bandit","
 [["pyproject.toml".contains]]
-line = "    /"flake8-bugbear/","
+line = '    "flake8-bugbear","
 [["pyproject.toml".contains]]
-line = "    /"flake8-comprehensions/","
+line = '    "flake8-comprehensions","
 [["pyproject.toml".contains]]
-line = "    /"flake8-docstrings/","
+line = '    "flake8-docstrings"'
 [["pyproject.toml".contains]]
-line = "    /"flake8-junit-report/","
+line = '    "flake8-junit-report"'
 [["pyproject.toml".contains]]
-line = "    /"flake8-logging-format/","
+line = '    "flake8-logging-format"'
 [["pyproject.toml".contains]]
-line = "    /"flake8-pep3101/","
+line = '    "flake8-pep3101"'
 [["pyproject.toml".contains]]
-line = "    /"flake8-print/","
+line = '    "flake8-print"'
 [["pyproject.toml".contains]]
-line = "    /"flake8-rst/","
+line = '    "flake8-rst"'
 [["pyproject.toml".contains]]
-line = "    /"flake8-rst-docstrings/","
+line = '    "flake8-rst-docstrings"'
 [["pyproject.toml".contains]]
-line = "    /"flake8-tidy-imports/","
+line = '    "flake8-tidy-imports"'
 [["pyproject.toml".contains]]
-line = "    /"isort/","
+line = '    "isort"'
 # [["pyproject.toml".contains]]
-# line = "    /"mypy/","
+# line = '    "mypy"'
 [["pyproject.toml".contains]]
-line = "    /"pytest/","
+line = '    "pytest"'
 [["pyproject.toml".contains]]
-line = "    /"pytest-cov/","
+line = '    "pytest-cov"'
 [["pyproject.toml".contains]]
-line = "    /"pytest-xdist/","
+line = '    "pytest-xdist"'
 [["pyproject.toml".contains]]
-line = "    /"pre-commit/","
+line = '    "pre-commit"'
