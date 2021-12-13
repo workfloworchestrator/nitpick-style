@@ -18,6 +18,8 @@ include = [
     "styles/mypy",
     "styles/pytest",
     "styles/license-apache2",
+    "styles/pyproject-fastapi.toml",
+    "styles/pyproject.toml",
     "styles/orchestrator-core",
     "styles/mypy-pydantic",
 ]
