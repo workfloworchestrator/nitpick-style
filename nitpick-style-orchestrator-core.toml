@@ -6,7 +6,6 @@ minimum_version = "0.23.1"
 
 [nitpick.styles]
 include = [
-    "styles/python39",
     "styles/absent-files",
     "styles/pre-commit/main",
     "styles/pre-commit/general",
