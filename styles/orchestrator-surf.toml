@@ -1,0 +1,2 @@
+[["requirements/base.txt".contains]]
+line = "gunicorn~=20.1.0"

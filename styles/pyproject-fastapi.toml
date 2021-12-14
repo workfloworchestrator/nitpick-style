@@ -1,2 +1,0 @@
-["pyproject.toml".tool.flit.metadata]
-requires = ["fastapi~=0.68.1", "uvicorn[standard]~=0.13.4"]
