@@ -17,8 +17,6 @@ include = [
     "styles/isort",
     "styles/mypy",
     "styles/pytest",
-    "styles/pyproject-fastapi",
-    "styles/pyproject",
     "styles/orchestrator-core",
     "styles/mypy-pydantic",
 ]
