@@ -1,0 +1,13 @@
+# Default style file for nitpick
+# https://raw.githubusercontent.com/andreoliwa/nitpick/v0.22.2/nitpick-style.toml
+
+[nitpick]
+minimum_version = "0.23.1"
+
+[nitpick.styles]
+include = [
+    "nitpick-style",
+    "styles/orchestrator-surf",
+    "styles/mypy-pydantic",
+]
+
