@@ -6,11 +6,4 @@ yaml = """
       - id: python-check-blanket-noqa
       - id: python-check-mock-methods
       - id: rst-backticks
-  - repo: https://github.com/asottile/pyupgrade
-    rev: v2.29.0
-    hooks:
-      - id: pyupgrade
-        args:
-          - --py39-plus
-          - --keep-runtime-typing
 """

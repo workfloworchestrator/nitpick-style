@@ -11,6 +11,7 @@ include = [
     "styles/pre-commit/main",
     "styles/pre-commit/general",
     "styles/pre-commit/python",
+    "styles/pre-commit/python39",
     "styles/pre-commit/bash",
     "styles/black",
     "styles/flake8",
