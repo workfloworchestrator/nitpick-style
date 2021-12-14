@@ -20,3 +20,7 @@ include = [
     "styles/orchestrator-core",
     "styles/mypy-pydantic",
 ]
+
+
+[nitpick.files."setup.cfg"]
+comma_separated_values = ["flake8.ignore", "flake8.exclude"]
