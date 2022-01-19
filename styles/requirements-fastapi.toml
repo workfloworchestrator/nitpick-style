@@ -1,5 +1,5 @@
 [["requirements/base.txt".contains]]
-line = "fastapi~=0.68.1"
+line = "fastapi~=0.72.0"
 
 [["requirements/base.txt".contains]]
 line = "gunicorn~=20.1.0"
