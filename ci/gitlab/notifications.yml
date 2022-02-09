@@ -1,0 +1,49 @@
+# Gitlab-CI template to send slack notifications for scheduled 'build' and 'unit test' jobs.
+# Required environment variables:
+#   CI_SLACK_NOTIFICATION_CHANNEL: name of channel to post to
+#   CI_SLACK_WEBHOOK_URL: slack webhook url
+
+.notify:
+  stage: notification
+  image: alpine
+  dependencies: []  # No artifacts
+  before_script:
+    - apk update && apk add bash curl
+    # - wget --quiet https://raw.githubusercontent.com/workfloworchestrator/nitpick-style/main/ci/scripts/slack.sh
+    - wget --quiet https://raw.githubusercontent.com/workfloworchestrator/nitpick-style/1256-slack-notify/ci/scripts/slack.sh
+    - chmod +x slack.sh
+
+
+.only-nwa-schedules:
+  only:
+    refs:
+      - schedules@netdev/automation
+
+
+schedule:notify-test-success:
+  extends:
+#    - .only-nwa-schedules  # TODO UNCOMMENT BEFORE MERGING
+    - .notify
+  script:
+      - ./slack.sh $CI_SLACK_NOTIFICATION_CHANNEL "Successfully built and tested $CI_PROJECT_TITLE $CI_JOB_URL" white_check_mark "Gitlab Pipeline"
+  needs: ["unit test"]
+  when: on_success
+
+
+schedule:notify-build-failed:
+  extends:
+#    - .only-nwa-schedules  # TODO UNCOMMENT BEFORE MERGE
+    - .notify
+  script:
+    - ./slack.sh $CI_SLACK_NOTIFICATION_CHANNEL "Build failed for $CI_PROJECT_TITLE $CI_JOB_URL" zap "Gitlab Pipeline"
+  needs: ["build"]
+  when: on_failure
+
+schedule:notify-test-failed:
+  extends:
+#    - .only-nwa-schedules  # TODO UNCOMMENT BEFORE MERGE
+    - .notify
+  script:
+    - ./slack.sh $CI_SLACK_NOTIFICATION_CHANNEL "Successful build but failed test $CI_PROJECT_TITLE $CI_JOB_URL" zap "Gitlab Pipeline"
+  needs: ["unit test"]
+  when: on_failure
