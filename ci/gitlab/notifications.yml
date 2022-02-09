@@ -9,8 +9,7 @@
   dependencies: []  # No artifacts
   before_script:
     - apk update && apk add bash curl
-    # - wget --quiet https://raw.githubusercontent.com/workfloworchestrator/nitpick-style/main/ci/scripts/slack.sh
-    - wget --quiet https://raw.githubusercontent.com/workfloworchestrator/nitpick-style/1256-slack-notify/ci/scripts/slack.sh
+    - wget --quiet https://raw.githubusercontent.com/workfloworchestrator/nitpick-style/main/ci/scripts/slack.sh
     - chmod +x slack.sh
 
 
