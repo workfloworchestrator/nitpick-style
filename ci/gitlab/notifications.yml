@@ -7,31 +7,25 @@
   stage: notification
   image: alpine
   dependencies: []  # No artifacts
+  only:
+    refs:
+      - schedules@netdev/automation
   before_script:
     - apk update && apk add bash curl
     - wget --quiet https://raw.githubusercontent.com/workfloworchestrator/nitpick-style/main/ci/scripts/slack.sh
     - chmod +x slack.sh
 
 
-.only-nwa-schedules:
-  only:
-    refs:
-      - schedules@netdev/automation
-
-
 schedule:notify-test-success:
   extends:
-#    - .only-nwa-schedules  # TODO UNCOMMENT BEFORE MERGING
     - .notify
   script:
       - ./slack.sh $CI_SLACK_NOTIFICATION_CHANNEL "Successfully built and tested $CI_PROJECT_TITLE $CI_JOB_URL" white_check_mark "Gitlab Pipeline"
   needs: ["unit test"]
   when: on_success
 
-
 schedule:notify-build-failed:
   extends:
-#    - .only-nwa-schedules  # TODO UNCOMMENT BEFORE MERGE
     - .notify
   script:
     - ./slack.sh $CI_SLACK_NOTIFICATION_CHANNEL "Build failed for $CI_PROJECT_TITLE $CI_JOB_URL" zap "Gitlab Pipeline"
@@ -40,7 +34,6 @@ schedule:notify-build-failed:
 
 schedule:notify-test-failed:
   extends:
-#    - .only-nwa-schedules  # TODO UNCOMMENT BEFORE MERGE
     - .notify
   script:
     - ./slack.sh $CI_SLACK_NOTIFICATION_CHANNEL "Successful build but failed test $CI_PROJECT_TITLE $CI_JOB_URL" zap "Gitlab Pipeline"
