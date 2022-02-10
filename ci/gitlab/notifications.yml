@@ -9,7 +9,7 @@
   dependencies: []  # No artifacts
   only:
     refs:
-      - schedules@netdev/automation
+      - schedules
   before_script:
     - apk update && apk add bash curl
     - wget --quiet https://raw.githubusercontent.com/workfloworchestrator/nitpick-style/main/ci/scripts/slack.sh
