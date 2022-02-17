@@ -5,4 +5,4 @@ line = "fastapi~=0.72.0"
 line = "gunicorn~=20.1.0"
 
 [["requirements/base.txt".contains]]
-line = "uvicorn[standard]~=0.14.0"
+line = "uvicorn[standard]~=0.16.0"
