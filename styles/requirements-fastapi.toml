@@ -2,4 +2,7 @@
 line = "fastapi~=0.72.0"
 
 [["requirements/base.txt".contains]]
-line = "uvicorn[standard]~=0.16.0"
+line = "uvloop==0.16.0"
+
+[["requirements/base.txt".contains]]
+line = "hypercorn==0.13.2"
