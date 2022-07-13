@@ -1,0 +1,16 @@
+["setup.cfg".mypy]
+plugins = "pydantic.mypy, strawberry.ext.mypy_plugin"
+
+["setup.cfg".pydantic-mypy]
+init_forbid_extra = true
+init_typed = true
+warn_required_dynamic_aliases = true
+warn_untyped_fields = true
+
+# [["pre-commit-config.yaml".repos]]
+# yaml = """
+#   - repo: https://github.com/pre-commit/mirrors-mypy
+#     hooks:
+#       - id: mypy
+#         additional_dependencies: [pydantic]
+# """
