@@ -1,5 +1,5 @@
 [["requirements/base.txt".contains]]
-line = "fastapi~=0.78.0"
+line = "fastapi~=0.79.0"
 
 [["requirements/base.txt".contains]]
 line = "uvloop==0.16.0"
