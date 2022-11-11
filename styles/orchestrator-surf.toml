@@ -1,2 +1,5 @@
 [["requirements/base.txt".contains]]
-line = "gunicorn~=20.1.0"
+line = "uvloop==0.16.0"
+
+[["requirements/base.txt".contains]]
+line = "hypercorn==0.13.2"
