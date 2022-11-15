@@ -34,7 +34,7 @@ line = "flake8-tidy-imports"
 [["requirements/test.txt".contains]]
 line = "isort"
 [["requirements/test.txt".contains]]
-line = "mypy"
+line = "mypy==0.981"
 [["requirements/test.txt".contains]]
 line = "pytest"
 [["requirements/test.txt".contains]]
