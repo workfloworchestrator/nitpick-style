@@ -1,6 +1,4 @@
 [["requirements/base.txt".contains]]
-line = "more-itertools~=8.7.0"
-[["requirements/base.txt".contains]]
 line = "structlog"
 
 [["requirements/test.txt".contains]]
