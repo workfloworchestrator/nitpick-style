@@ -1,2 +1,2 @@
 [["requirements/base.txt".contains]]
-line = "hypercorn==0.14.3
+line = "hypercorn==0.14.3"
