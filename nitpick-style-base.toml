@@ -14,12 +14,7 @@ include = [
     "styles/pre-commit/python39",
     "styles/pre-commit/bash",
     "styles/black",
-    "styles/flake8",
-    "styles/isort",
     "styles/mypy",
     "styles/pytest",
     "styles/requirements",
 ]
-
-[nitpick.files."setup.cfg"]
-comma_separated_values = ["flake8.ignore", "flake8.exclude"]
