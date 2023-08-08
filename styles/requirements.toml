@@ -3,35 +3,6 @@ line = "-r base.txt"
 [["requirements/test.txt".contains]]
 line = "black"
 [["requirements/test.txt".contains]]
-line = "flake8"
-[["requirements/test.txt".contains]]
-line = "flake8-bandit"
-[["requirements/test.txt".contains]]
-line = "flake8-bugbear"
-[["requirements/test.txt".contains]]
-line = "flake8-comprehensions"
-[["requirements/test.txt".contains]]
-line = "flake8-docstrings"
-[["requirements/test.txt".contains]]
-line = "flake8-junit-report"
-[["requirements/test.txt".contains]]
-line = "flake8-logging-format"
-[["requirements/test.txt".contains]]
-line = "flake8-pep3101"
-[["requirements/test.txt".contains]]
-line = "flake8-print"
-[["requirements/test.txt".contains]]
-line = "flake8-rst"
-[["requirements/test.txt".contains]]
-line = "flake8-rst-docstrings"
-[["requirements/test.txt".contains]]
-line = "flake8-tidy-imports"
-[["requirements/test.txt".contains]]
-line = "isort"
-# Disable mypy until all projects are updated
-# [["requirements/test.txt".contains]]
-# line = "mypy==0.981"
-[["requirements/test.txt".contains]]
 line = "pytest"
 [["requirements/test.txt".contains]]
 line = "pytest-cov"
