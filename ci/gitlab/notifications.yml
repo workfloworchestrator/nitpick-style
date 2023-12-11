@@ -29,7 +29,9 @@ schedule:notify-build-failed:
     - .notify
   script:
     - ./slack.sh $CI_SLACK_NOTIFICATION_CHANNEL "Build failed for $CI_PROJECT_TITLE $CI_JOB_URL" zap "Gitlab Pipeline"
-  needs: ["build"]
+  needs:
+    - job: "build"
+      optional: true
   when: on_failure
 
 schedule:notify-test-failed:
